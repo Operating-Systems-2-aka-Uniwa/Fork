@@ -104,9 +104,9 @@ Run the executable files:
 
 ## Πληροφορίες Μαθήματος
 - **Μάθημα**: [Λειτουργικά Συστήματα ΙΙ](https://ice.uniwa.gr/education/undergraduate/courses/operating-systems-ii/)
-- **Εξάμηνο**: 4ο
-- **Πρόγραμμα Σπουδών**: [UNIWA](https://www.uniwa.gr/)
-- **Τμήμα**: [Πληροφορικής και Μηχανικών Υπολογιστών](https://ice.uniwa.gr/)
+- **Εξάμηνο**: 4
+- **Πρόγραμμα Σπουδών**: [ΠΑΔΑ](https://www.uniwa.gr/)
+- **Τμήμα**: [Μηχανικών Πληροφορικής και Υπολογιστών](https://ice.uniwa.gr/)
 - **Εργαστηριακός Υπεύθυνος**: [Ψαρράς Νικόλαος](https://ice.uniwa.gr/emd_person/20879/)
 - **Ακαδημαϊκή Χρονιά**: 2021-2022
 
