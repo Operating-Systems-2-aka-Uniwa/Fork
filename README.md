@@ -45,6 +45,7 @@ The main objectives are:
 
 ## Process Tree Structure:
 The program follows this process hierarchy:
+
                 (P0)
                 / \
                /   \
@@ -135,6 +136,7 @@ Run the executable files:
 
 ## Δομή Δέντρου Διεργασιών:
 Το πρόγραμμα ακολουθεί την εξής ιεραρχία διεργασιών:
+                
                 (P0)
                 / \
                /   \
