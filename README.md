@@ -11,11 +11,11 @@
 ---
 
 <p align="center">
-  <strong>Operating Systems I</strong>
+  <strong>Operating Systems II</strong>
 </p>
 
 <h1 align="center">
-  Basic Linux Commands
+  Process Management with Fork and Wait in C
 </h1>
 
 <p align="center">
