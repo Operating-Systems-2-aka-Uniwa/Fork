@@ -8,6 +8,11 @@
   DEPARTMENT OF COMPUTER ENGINEERING AND INFORMATICS
 </p>
 
+<p align="center">
+  <a href="https://www.uniwa.gr" target="_blank">University of West Attica</a> ·
+  <a href="https://ice.uniwa.gr" target="_blank">Department of Computer Engineering and Informatics</a>
+</p>
+
 ---
 
 <p align="center">
@@ -41,7 +46,6 @@
   <a href="https://ice.uniwa.gr/en/emd_person/vassilios-mamalis/" target="_blank">UNIWA Profile</a>
 </p>
 
-
 <p align="center">
   Co-supervisor: Nikolaos Psarras, Applications Lecturer<br>
 </p>
@@ -53,14 +57,23 @@
 
 </hr>
 
+---
+
 <p align="center">
   Athens, April 2022
 </p>
 
+---
+
+<p align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnEvFTdIZ3dMEw24uTHWTb6ZY68tnJa2GtQA&s" width="250"/>
+</p>
 
 ---
 
-# Process Management with Fork and Wait in C
+# README
+
+## Process Management with Fork and Wait in C
 
 This repository contains an assignment for **Operating Systems II**, focusing on process creation, management, and synchronization in C using `fork()` and `wait()` system calls.
 
@@ -68,22 +81,23 @@ This repository contains an assignment for **Operating Systems II**, focusing on
 
 ## Table of Contents
 
-| Section | Folder/File | Description |
-|------:|-------------|-------------|
-| 1 | `assign/` | Assignment material for the Fork processes workshop |
-| 1.1 | `assign/ASK-1-OS-II-LAB-2021-22.pdf` | Assignment description in English |
-| 1.2 | `assign/ΕΡΓ-1-ΛΣ-ΙΙ-ΕΡΓ-2021-22.pdf` | Assignment description in Greek |
-| 2 | `docs/` | Documentation covering process creation using fork |
-| 2.1 | `docs/Fork-Processes.txt` | English documentation for fork processes |
-| 2.2 | `docs/Fork-Διεργασίες.txt` | Greek documentation for fork processes |
-| 3 | `src/` | Source code demonstrating fork usage |
-| 3.1 | `src/exer1a.c` | Exercise source code using fork |
-| 3.2 | `src/fork.c` | Basic fork process example |
-| 4 | `README.md` | Repository overview and usage instructions |
+| Section | Folder/File                          | Description                                         |
+| ------: | ------------------------------------ | --------------------------------------------------- |
+|       1 | `assign/`                            | Assignment material for the Fork processes workshop |
+|     1.1 | `assign/ASK-1-OS-II-LAB-2021-22.pdf` | Assignment description in English                   |
+|     1.2 | `assign/ΕΡΓ-1-ΛΣ-ΙΙ-ΕΡΓ-2021-22.pdf` | Assignment description in Greek                     |
+|       2 | `docs/`                              | Documentation covering process creation using fork  |
+|     2.1 | `docs/Fork-Processes.txt`            | English documentation for fork processes            |
+|     2.2 | `docs/Fork-Διεργασίες.txt`           | Greek documentation for fork processes              |
+|       3 | `src/`                               | Source code demonstrating fork usage                |
+|     3.1 | `src/exer1a.c`                       | Exercise source code using fork                     |
+|     3.2 | `src/fork.c`                         | Basic fork process example                          |
+|       4 | `README.md`                          | Project documentation                               |
+|       5 | `INSTALL.md`                         | Usage instructions                                  |
 
 ---
 
-## Project Overview
+## 1. Project Overview
 
 The assignment involves developing a C program that:
 
@@ -103,50 +117,21 @@ The assignment involves developing a C program that:
 
 ---
 
-## Process Tree Structure
+## 2. Process Tree Structure
 
 The program creates processes with the following hierarchy:
+
 ```bash
 			  (P0)
 			  /|\
 			 / | \
             /  |  \
-	       /   |   \ 
+	       /   |   \
           /    |    \
         (P1)  (P3) (P4)
         /      |
        /       |
-      /        | 
+      /        |
      /         |
    (P2)       (P5)
-```
-
----
-
-## Requirements
-
-- **Operating System:** Linux or Unix-like environment  
-- **Compiler:** GCC (GNU Compiler Collection)  
-- **System Calls:** `fork()`, `wait()`, `execv()`, and others as needed  
-
----
-
-## Installation & Usage
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Operating-Systems-2-aka-Uniwa/Fork.git
-cd Fork
-```
-
-### 2. Compile Source Code
-```bash
-gcc -o exer1a exer1a.c
-gcc -o fork fork.c
-```
-
-### 3. Run Executables
-```bash
-./exer1a
-./fork
 ```
